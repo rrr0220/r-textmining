@@ -1,0 +1,51 @@
+1635944824179:twitter_token = create_token(
+1635944824192:app = APPNAME,
+1635944824205:consumer_key = CONSUMERKEY,
+1635944824217:consumer_secret = CONSUMERSECRET
+1635944824229:)
+1635944851886:twitter_token = create_token(
+1635944851900:app = APPNAME,
+1635944851914:consumer_key = CONSUMERKEY,
+1635944851926:consumer_secret = CONSUMERSECRET
+1635944851939:)
+1635944968940:library(rtweet)
+1635944972027:APP
+1635944975728:twitter_token = create_token(
+1635944975740:app = APPNAME,
+1635944975752:consumer_key = CONSUMERKEY,
+1635944975764:consumer_secret = CONSUMERSECRET
+1635944975778:)
+1635945190779:package_version("rtweet")
+1635945207596:packageVersion("rtweet")
+1635945264359:devtools::session_info()
+1635945309931:?create_token
+1635945923868:twitter_token = create_token(
+1635945923880:app = APPNAME,
+1635945923894:consumer_key = CONSUMERKEY,
+1635945923908:consumer_secret = CONSUMERSECRET,
+1635945923920:access_token = ACCESSTOKEN,
+1635945923934:access_secret = ACCESSSECRET
+1635945923947:)
+1635946836447:rt = search_tweets("三菱自動車", n=100, include_rts=FALSE)
+1635946843124:rt
+1635946858223:View(rt)
+1635947007018:rt$text
+1635947219674:write.csv(rt, "~MMC_tweet.csv")
+1635947236564:write.csv(rt, "~/MMC_tweet.csv")
+1635947281040:write.csv(rt, "MMC_tweet.csv")
+1635947311085:write.csv(rt, "~MMC_tweet.csv", col.names=TRUE)
+1635947397481:write.csv(x = rt, file = "~/exportdata.csv")
+1635947450424:library(openxlsx)
+1635947501833:library(openxlsx)
+1635947669567:wb <- createWorkbook()
+1635947669592:addWorksheet(wb, 'tweet')
+1635947669633:writeData(wb, sheet = 'tweet', x = rt, withFilter=F)
+1635947669684:modifyBaseFont(wb, fontSize = 11, fontColour = "#000000", fontName = "Meiryo UI")
+1635947669698:saveWorkbook(wb, "~MMCtweet", overwrite = T)
+1635947731227:wb <- createWorkbook()
+1635947731242:addWorksheet(wb, 'tweet')
+1635947731261:writeData(wb, sheet = 'tweet', x = rt, withFilter=F)
+1635947731298:modifyBaseFont(wb, fontSize = 11, fontColour = "#000000", fontName = "Meiryo UI")
+1635947731310:saveWorkbook(wb, "MMCtweet.xlsx", overwrite = T)
+1635947854726:rm(list=ls())
+1635947854738:gc();  gc();

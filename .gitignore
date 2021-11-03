@@ -1,6 +1,7 @@
 #TwitterAPI_Keyを除外
 TwitterAPI_Keys.txt
 .Rprofile
+.RData
 
 # History files
 .Rhistory

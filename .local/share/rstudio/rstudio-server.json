@@ -1,3 +1,4 @@
 {
-    "context_id": "3208D06C"
+    "context_id": "3208D06C",
+    "error_handler_type": "traceback"
 }
